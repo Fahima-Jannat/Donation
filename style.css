@@ -92,3 +92,18 @@ padding-bottom: 15%;
 .half-width-img{
     width: 50%;
 }
+.form{
+    background-color: rgb(250, 236, 238);  
+    padding: 50px;
+    width: 50%;
+    margin-left: 25%;
+}
+.footer-decoration{
+    background-color: black;
+    color: rgb(245, 20, 20);
+    font-family: 'Hi Melody', cursive;
+    padding: 5px;
+}
+footer p{
+    color: aliceblue;
+}
