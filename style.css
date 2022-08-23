@@ -1,0 +1,30 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+    margin: 0px;
+}
+.Banner{
+background-image: url(images/donation7.jpg);
+background-repeat: no-repeat;
+text-align: center;
+color: aliceblue;
+width: 100%;
+padding: 15%;
+}
+.donate-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(252, 206, 121),rgb(247, 65, 34));
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: azure;
+}
+.half-width{
+    width:50%;
+    padding: 2%;
+}
+.d{
+    display: flex;
+}
+.half-width img{
+    width: 100%;
+}
