@@ -73,16 +73,22 @@ padding-bottom: 15%;
     padding: 15px;
     width: 30%;
     margin: 15px;
+    border-radius: 5px;
 }
 .family-plan{
     background-color: rgba(245, 187, 245, 0.438);
     padding: 15px;
     width: 30%;
     margin: 15px;
+    border-radius: 5px;
 }
 .education-plan{
     background-color: rgba(247, 245, 176, 0.438);
     padding: 15px;
     width: 30%;
     margin: 15px;
+    border-radius: 5px;
+}
+.half-width-img{
+    width: 50%;
 }
