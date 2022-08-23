@@ -8,7 +8,11 @@ background-repeat: no-repeat;
 text-align: center;
 color: aliceblue;
 width: 100%;
-padding: 15%;
+padding-top: 15%;
+padding-bottom: 15%;
+}
+.center-alignment{
+    text-align: center;
 }
 .donate-button{
     text-decoration: none;
@@ -18,13 +22,42 @@ padding: 15%;
     font-weight: 700;
     color: azure;
 }
+.flexible-donation{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    text-align: center;
+}
+.amount-button{
+    background-color: rgba(250, 248, 248, 0.671);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5%;
+    border: 2px;
+    border-radius: 5px;
+}
+.choice-amount-button{
+    box-shadow: 5px 5px 5px rgba(248, 101, 16, 0.863);
+    background-color:rgba(245, 52, 52, 0.233);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5%;
+    border: 2px;
+    border-radius: 5px;
+    color: rgb(236, 69, 69);
+}
 .half-width{
     width:50%;
     padding: 2%;
 }
-.d{
-    display: flex;
-}
 .half-width img{
     width: 100%;
 }
+.flexible-container{
+    display: flex;
+}
+
